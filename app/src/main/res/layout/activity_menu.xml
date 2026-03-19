@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_background_menu"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/txtBoasVindas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_boas_vindas"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_primary_dark"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Informações -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="14dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_card_info"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_primary_dark"
+                android:layout_marginBottom="6dp" />
+
+            <Button
+                android:id="@+id/btnInformacoes"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/menu_btn_acessar"
+                android:backgroundTint="@color/blue_primary"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Emergência -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="14dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_card_emergencia"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/red_emergency"
+                android:layout_marginBottom="6dp" />
+
+            <Button
+                android:id="@+id/btnEmergencia"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/menu_btn_acessar"
+                android:backgroundTint="@color/red_emergency"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Pontos de Apoio -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="14dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_card_pontos"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_primary_dark"
+                android:layout_marginBottom="6dp" />
+
+            <Button
+                android:id="@+id/btnPontosApoio"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/menu_btn_acessar"
+                android:backgroundTint="@color/blue_primary"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- ECA -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_card_eca"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_primary_dark"
+                android:layout_marginBottom="6dp" />
+
+            <Button
+                android:id="@+id/btnEca"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/menu_btn_acessar"
+                android:backgroundTint="@color/blue_primary"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Sair -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/menu_btn_sair"
+            android:backgroundTint="@color/dark_gray"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

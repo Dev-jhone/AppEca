@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================================================== -->
+    <!-- CORES BASE -->
+    <!-- ===================================================== -->
+    <color name="white">#FFFFFF</color>
+    <color name="black_overlay">#80000000</color>
+    <color name="dark_gray">#333333</color>
+
+    <!-- ===================================================== -->
+    <!-- TEXTO -->
+    <!-- ===================================================== -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#333333</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- ===================================================== -->
+    <!-- IDENTIDADE AZUL -->
+    <!-- ===================================================== -->
+    <color name="blue_primary">#1565C0</color>
+    <color name="blue_primary_dark">#0D47A1</color>
+    <color name="blue_primary_light">#1976D2</color>
+
+    <color name="blue_background_menu">#E3F2FD</color>
+    <color name="background_light">#F2F4F7</color>
+
+    <!-- ===================================================== -->
+    <!-- EMERGÊNCIA -->
+    <!-- ===================================================== -->
+    <color name="red_emergency">#C62828</color>
+
+</resources>

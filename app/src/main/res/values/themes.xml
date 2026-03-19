@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema principal -->
+    <style name="Theme.AppEca"
+        parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@color/blue_primary_dark</item>
+    </style>
+
+    <!-- Tema da Splash -->
+    <style name="Theme.AppEca.Splash"
+        parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

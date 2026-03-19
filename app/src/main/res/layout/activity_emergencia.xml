@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emergencia_titulo"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_primary_dark"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Descrição -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emergencia_descricao"
+            android:textSize="16sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Polícia -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnLigar190"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/emergencia_policia"
+                android:textStyle="bold"
+                android:backgroundTint="@color/blue_primary_light"
+                android:textColor="@color/text_on_primary" />
+        </LinearLayout>
+
+        <!-- Disque 100 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnLigar100"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/emergencia_disque100"
+                android:textStyle="bold"
+                android:backgroundTint="@color/blue_primary"
+                android:textColor="@color/text_on_primary" />
+        </LinearLayout>
+
+        <!-- SAMU -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="32dp">
+
+            <Button
+                android:id="@+id/btnLigar192"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/emergencia_samu"
+                android:textStyle="bold"
+                android:backgroundTint="@color/red_emergency"
+                android:textColor="@color/text_on_primary" />
+        </LinearLayout>
+
+        <!-- Voltar -->
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/voltar"
+            android:backgroundTint="@color/text_secondary"
+            android:textColor="@color/text_on_primary"
+            android:layout_gravity="center_horizontal"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

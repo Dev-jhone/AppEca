@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================== -->
+    <!-- GERAL -->
+    <!-- ===================== -->
+    <string name="app_name">ECAjuda</string>
+    <string name="voltar">Voltar</string>
+
+    <!-- ===================== -->
+    <!-- SPLASH / TELA INICIAL -->
+    <!-- ===================== -->
+    <string name="splash_titulo">ECAjuda</string>
+    <string name="splash_descricao">
+        Informações e orientações sobre os direitos de crianças e adolescentes.
+    </string>
+    <string name="splash_botao_iniciar">Iniciar</string>
+    <string name="splash_image_desc">Imagem de abertura do aplicativo</string>
+
+    <!-- ===================== -->
+    <!-- MENU PRINCIPAL -->
+    <!-- ===================== -->
+    <string name="menu_boas_vindas">Bem-vindo!</string>
+    <string name="menu_boas_vindas_usuario">Bem-vindo, %1$s</string>
+
+    <string name="menu_card_info">Informações do App</string>
+    <string name="menu_card_emergencia">Emergência</string>
+    <string name="menu_card_pontos">Pontos de Apoio</string>
+    <string name="menu_card_eca">Direitos e Deveres (ECA)</string>
+
+    <string name="menu_btn_acessar">Acessar</string>
+    <string name="menu_btn_sair">Sair</string>
+
+    <!-- ===================== -->
+    <!-- EMERGÊNCIA -->
+    <!-- ===================== -->
+    <string name="emergencia_titulo">Emergência</string>
+    <string name="emergencia_descricao">
+        Use os contatos abaixo em situações de risco ou violação de direitos
+        de crianças e adolescentes.
+    </string>
+    <string name="emergencia_policia">Polícia Militar (190)</string>
+    <string name="emergencia_disque100">Disque 100 – Direitos Humanos</string>
+    <string name="emergencia_samu">SAMU (192)</string>
+
+    <!-- ===================== -->
+    <!-- INFORMAÇÕES -->
+    <!-- ===================== -->
+    <string name="info_titulo">Informações do Aplicativo</string>
+    <string name="info_descricao">
+        Este aplicativo foi desenvolvido para auxiliar cidadãos, oferecendo
+        informações essenciais sobre proteção, direitos e serviços de apoio.
+    </string>
+
+    <string name="info_publico_titulo">Para quem é este aplicativo?</string>
+    <string name="info_publico_descricao">
+        Destinado a cidadãos, responsáveis legais, educadores e profissionais
+        da rede de proteção.
+    </string>
+
+    <string name="info_recursos_titulo">Recursos disponíveis</string>
+    <string name="info_recursos_lista">
+        • Serviços de emergência\n
+        • Direitos previstos no ECA\n
+        • Pontos de apoio\n
+        • Orientações e informações
+    </string>
+
+    <string name="info_importancia_titulo">Por que este aplicativo é importante?</string>
+    <string name="info_importancia_descricao">
+        O acesso à informação é fundamental para prevenir violações de direitos
+        e garantir a proteção integral.
+    </string>
+
+    <!-- ===================== -->
+    <!-- ECA -->
+    <!-- ===================== -->
+    <string name="eca_titulo">
+        Direitos e Deveres – Estatuto da Criança e do Adolescente
+    </string>
+
+    <string name="eca_introducao">
+        O Estatuto da Criança e do Adolescente (Lei nº 8.069/1990) assegura
+        proteção integral a crianças e adolescentes.
+    </string>
+
+    <string name="eca_principios_titulo">Princípios Fundamentais</string>
+    <string name="eca_principios">
+        • Proteção integral\n
+        • Prioridade absoluta\n
+        • Dignidade e respeito\n
+        • Convivência familiar\n
+        • Interesse superior
+    </string>
+
+    <string name="eca_direitos_titulo">Direitos Garantidos</string>
+    <string name="eca_direitos">
+        • Vida e saúde\n
+        • Educação e lazer\n
+        • Liberdade e dignidade\n
+        • Proteção contra abusos
+    </string>
+
+    <string name="eca_deveres_titulo">Deveres</string>
+    <string name="eca_deveres">
+        • Respeito\n
+        • Responsabilidade\n
+        • Solidariedade
+    </string>
+
+    <!-- ===================== -->
+    <!-- LINKS ECA -->
+    <!-- ===================== -->
+    <string name="eca_links_titulo">Links Oficiais</string>
+    <string name="eca_links_descricao">
+        Abaixo estão links oficiais para consulta e aprofundamento sobre o ECA.
+    </string>
+
+    <string name="eca_links_legislacao_titulo">Legislação</string>
+    <string name="eca_links_legislacao">
+        Lei nº 8.069/1990 – Estatuto da Criança e do Adolescente\n
+        https://www.planalto.gov.br/ccivil_03/leis/l8069.htm
+    </string>
+
+    <string name="eca_links_orgaos_titulo">Órgãos Responsáveis</string>
+    <string name="eca_links_orgaos">
+        Ministério dos Direitos Humanos\n
+        Conselho Nacional dos Direitos da Criança e do Adolescente
+    </string>
+
+    <string name="eca_links_sistema_titulo">Sistema de Garantia de Direitos</string>
+    <string name="eca_links_sistema">
+        Conselho Tutelar\n
+        Disque 100 – Direitos Humanos
+    </string>
+
+    <string name="eca_links_apoio_titulo">Apoio</string>
+    <string name="eca_links_apoio">
+        UNICEF Brasil – https://www.unicef.org/brazil
+    </string>
+
+    <!-- ===================== -->
+    <!-- PONTOS DE APOIO -->
+    <!-- ===================== -->
+    <string name="pontos_apoio_titulo">Pontos de Apoio</string>
+    <string name="pontos_apoio_descricao">
+        Serviços públicos de apoio social, psicológico e jurídico.
+    </string>
+
+    <string name="cras_titulo">CRAS</string>
+    <string name="cras_descricao">Atendimento social básico.</string>
+    <string name="cras_botao">Localizar CRAS</string>
+    <string name="cras_endereco">CRAS</string>
+
+    <string name="creas_titulo">CREAS</string>
+    <string name="creas_descricao">Atendimento especializado.</string>
+    <string name="creas_botao">Localizar CREAS</string>
+    <string name="creas_endereco">CREAS</string>
+
+    <string name="conselho_tutelar_titulo">Conselho Tutelar</string>
+    <string name="conselho_tutelar_descricao">
+        Proteção dos direitos da criança e do adolescente.
+    </string>
+    <string name="conselho_tutelar_botao">
+        Localizar Conselho Tutelar
+    </string>
+    <string name="conselho_tutelar_endereco">Conselho Tutelar</string>
+
+    <!-- ===================== -->
+    <!-- ERROS -->
+    <!-- ===================== -->
+    <string name="erro_mapa">Nenhum aplicativo de mapa disponível.</string>
+
+</resources>

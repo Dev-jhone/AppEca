@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema principal (modo noturno) -->
+    <style name="Theme.AppEca"
+        parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@color/blue_primary_dark</item>
+
+    </style>
+
+    <!-- Tema da Splash (modo noturno) -->
+    <style name="Theme.AppEca.Splash"
+        parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+</resources>

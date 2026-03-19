@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jonathan.appeca">
+
+    <!-- Permissões necessárias -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppEca">
+
+        <!-- Splash / Launcher -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppEca.Splash">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Tela inicial -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Menu -->
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+
+        <!-- Conteúdo -->
+        <activity
+            android:name=".InformacoesActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".EcaActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".PontosApoioActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".EmergenciaActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
