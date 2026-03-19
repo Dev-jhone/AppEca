@@ -13,3 +13,6 @@ Aplicativo Android desenvolvido em Kotlin com foco na proteção e orientação 
 
 ## 📌 Objetivo
 Projeto com foco social voltado à conscientização e apoio em situações envolvendo crianças e adolescentes.
+
+## 🎓 Contexto
+Desenvolvido como projeto de conclusão de curso (TCC) e extensão acadêmica, com foco na aplicação prática da tecnologia para impacto social.
